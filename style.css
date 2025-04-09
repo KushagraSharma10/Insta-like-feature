@@ -20,6 +20,10 @@ body {
     height: 30vw;
     border-radius: 1vw;
     background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .insta-img img{
@@ -27,4 +31,19 @@ body {
     height: 100%;
     object-fit: cover;
     border-radius: 1vw;
+
+}
+
+i {
+    font-size: 6.7em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* z-index: 1; */
+    display: none;
+    color: crimson;
+    transition: all 0.3s ease-in-out;
+    pointer-events: none;
+
 }
